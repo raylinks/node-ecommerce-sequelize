@@ -1,0 +1,20 @@
+{
+  "name": "ecommerce-sequelize",
+  "version": "1.0.0",
+  "description": "shopping store ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node   server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
